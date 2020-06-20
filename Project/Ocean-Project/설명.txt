@@ -1,0 +1,45 @@
+[data_change_and_combine.py]
+설명 : 2000년~2017년 해양자료 모음, 수심 0으로 필터링
+출력 : ocean_all_data.csv
+
+[test01.py]
+설명 : 필요한 열 필터링
+입력 : ocean_all_data.csv
+출력 : output01.csv
+
+[test02.py]
+설명 : 해더행 및 속성행 제거, 날짜 형식 변환
+입력 : output01.csv
+출력 : output02.csv
+
+[test03.py]
+설명 : 2000~2017년 웹 크롤링
+출력 : result01.csv
+
+[test04.py]
+설명 : 적조 발생여부 표시
+입력 : result01.csv
+입력 : output02.csv
+출력 : output03.csv
+
+[test05.py]
+설명 : 해더행 추가, 날짜별 각 요소들의 평균값을 구하여 csv파일 생성
+입력 : output03.csv
+출력 : result02.csv
+출력 : output04.csv
+
+[test06-1.py]
+설명 : 수온, 염분, 용존산소 로지스틱 회귀분석
+입력 : output04.csv
+출력 : result03-1.csv
+
+[test06-2.py]
+설명 : 인산염인, 아질산질소, 질산규소, 규산수소 로지스틱 회귀분석
+입력 : output04.csv
+출력 : result03-2.csv
+
+[test06-3.py]
+설명 : 수온, 염분, 용존산소, 인산염인, 아질산질소, 질산규소, 규산수소 로지스틱 회귀분석
+입력 : output04.csv
+출력 : result03-3.csv
+

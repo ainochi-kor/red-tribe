@@ -1,0 +1,21 @@
+create table marine (
+sea_area varchar2(20),
+edge varchar2(10),
+vertex varchar2(10),
+edge_vertex varchar2(20),
+latitude number,
+longitude number,
+observ_date date,
+depth number,
+temperature number,
+salinity number,
+oxygen number,
+phosphate number,
+nitrous number,
+nitric number,
+silicic number,
+transparency number,
+pressure number,
+ship varchar2(20),
+onoff char(1)
+);

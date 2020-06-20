@@ -1,0 +1,25 @@
+load data 
+infile 'D:\Bigdata\LoadData\data04.csv' 
+insert into table marine
+fields terminated by "," 
+OPTIONALLY ENCLOSED BY '"'
+(sea_area,
+edge,
+vertex,
+edge_vertex,
+latitude,
+longitude,
+observ_date,
+depth,
+temperature,
+salinity,
+oxygen,
+phosphate,
+nitrous,
+nitric,
+silicic,
+transparency,
+pressure,
+ship,
+onoff)
+

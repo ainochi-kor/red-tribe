@@ -1,0 +1,17 @@
+[Ocean-Year]
+연도별 요소값 그래프 시각화
+
+[Ocean-Month]
+월별 요소값 그래프 시각화
+
+[Ocean-Count]
+연도별 월별 적조 발생 횟수 시각화
+
+[Ocean-Gui]
+Pyqt를 이용해서 GUI제작
+
+[Ocean-Project]
+로지스틱 회귀분석 및 적조발생 가능성 계산
+
+필요한 환경 : python 3.7, pandas 0.24.2 (데이터 정제 및 분석), statsmodels 0.9.0(회귀분석 등 수학모델), 
+	PyQt5 5.12(Gui 구현), matplotlib 3.0.3(그래프 그리는 라이브러리)

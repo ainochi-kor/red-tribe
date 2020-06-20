@@ -1,0 +1,4 @@
+[red_Tride_20xx_MainGui_test2.py]
+설명 : Pyqt를 이용한 GUI제작
+입력 : output04.csv
+필수사항 : input_data_form.ui의 주소를 지정해서 사용해야합니다.

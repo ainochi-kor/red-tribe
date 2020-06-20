@@ -1,0 +1,63 @@
+[test01.py]
+설명 : 2000년~2017년 해양자료 모음, 수심 0으로 필터링
+출력 : ocean_all_data.csv
+
+[test02.py]
+설명 : 속성 이름 변경,  매년 8월달만 추출, 이상값 제거 (ex. 염분 99.999 and #####과 같은 값)
+입력 : ocean_all_data.csv
+출력 : output01.csv
+
+[test03-1.py]
+설명 : 동해 연도별 요소들의 평균값 정리
+입력 : output01.csv
+출력 : output02-1.csv
+
+[test03-2.py]
+설명 : 남해 연도별 요소들의 평균값 정리
+입력 : output01.csv
+출력 : output02-2.csv
+
+[test03-3.py]
+설명 : 서해 연도별 요소들의 평균값 정리
+입력 : output01.csv
+출력 : output02-3.csv
+
+[test03-4.py]
+설명 : 동중국해 연도별 요소들의 평균값 정리
+입력 : output01.csv
+출력 : output02-4.csv
+
+[test04-1.py]
+설명 : 연도별 수온 그래프 시각화 및 통합
+입력 : output02-1.csv, output02-2.csv, output02-3.csv, output02-4.csv
+출력 : output03.csv
+
+[test04-2.py]
+설명 : 연도별 염분 그래프 시각화 및 통합
+입력 : output02-1.csv, output02-2.csv, output02-3.csv, output02-4.csv
+출력 : output03.csv
+
+[test04-3.py]
+설명 : 연도별 용존산소 그래프 시각화 및 통합
+입력 : output02-1.csv, output02-2.csv, output02-3.csv, output02-4.csv
+출력 : output03.csv
+
+[test04-4.py]
+설명 : 연도별 인산염인 그래프 시각화 및 통합
+입력 : output02-1.csv, output02-2.csv, output02-3.csv, output02-4.csv
+출력 : output03.csv
+
+[test04-5.py]
+설명 : 연도별 아질산질소 그래프 시각화 및 통합
+입력 : output02-1.csv, output02-2.csv, output02-3.csv, output02-4.csv
+출력 : output03.csv
+
+[test04-6.py]
+설명 : 연도별 질산규소 그래프 시각화 및 통합
+입력 : output02-1.csv, output02-2.csv, output02-3.csv, output02-4.csv
+출력 : output03.csv
+
+[test04-7.py]
+설명 : 연도별 규산수소 그래프 시각화 및 통합
+입력 : output02-1.csv, output02-2.csv, output02-3.csv, output02-4.csv
+출력 : output03.csv

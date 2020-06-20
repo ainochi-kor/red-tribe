@@ -1,0 +1,12 @@
+[ouput04_remake.py]
+설명 : 적조 발생 'On/Off' 열의 값이 '1'인 것만 추출 및 필요없는 값 제거
+입력 : output04.csv
+출력 : output04_remake_year.csv
+
+[each_year_count.py]
+설명 : 연도별 적조 발생 그래프 시각화
+입력 : output04_remake_year.csv
+
+[each_month_count]
+설명 : 월별 적조 발생 그래프 시각화
+입력 : output04_remake_year.csv

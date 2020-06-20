@@ -1,0 +1,4 @@
+* cmd 후 도스 명령어 창에서 아래 명령줄 실행
+
+
+D:\Bigdata\LoadData>sqlldr userid=tom/jerry control='marine.ctl.txt'
